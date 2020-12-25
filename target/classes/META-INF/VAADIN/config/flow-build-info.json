@@ -1,0 +1,9 @@
+{
+  "compatibilityMode": false,
+  "productionMode": false,
+  "npmFolder": "C:\\dev\\vaadin-litelement-password-strength",
+  "generatedFolder": "C:\\dev\\vaadin-litelement-password-strength\\target\\frontend",
+  "frontendFolder": "C:\\dev\\vaadin-litelement-password-strength\\frontend",
+  "pnpm.enable": false,
+  "require.home.node": false
+}
