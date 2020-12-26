@@ -10,9 +10,6 @@ import com.vaadin.flow.component.dependency.JsModule;
 @JsModule("./vaadin-password-strength.js")
 public class VaadinPasswordStrength extends Component {
 
-     /**
-     * Constructor of Vaadin Video.
-     */
     public VaadinPasswordStrength() { }
 
     public void setScore(int score) {
@@ -22,7 +19,7 @@ public class VaadinPasswordStrength extends Component {
     public int calculate(String password) {
         Zxcvbn zxcvbn = new Zxcvbn();
         Strength strength = zxcvbn.measure(password);
-        return strength.getScore()+1;
+        return strength.getScore() != 0 ? strength.getScore() + 1 : 0;
     }
 
 }
