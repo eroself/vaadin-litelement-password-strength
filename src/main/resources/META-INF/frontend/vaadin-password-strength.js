@@ -1,4 +1,4 @@
-import { html, LitElement } from "lit-element";
+import {html, LitElement} from "lit-element";
 import '@collaborne/polymer-password-strength';
 
 
@@ -21,9 +21,7 @@ class VaadinPasswordStrength extends LitElement {
     }
 
     render() {
-        return html`
-            <password-strength score="${this.score}" style="width: 100%"></password-strength>
-        `;
+        return html`<password-strength score="${this.score}" style="width: 100%"></password-strength>`;
     }
 
 }
