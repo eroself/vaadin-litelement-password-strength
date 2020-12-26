@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@collaborne/polymer-password-strength": "^4.0.0",
-    "@polymer/polymer": "3.2.0",
+    "@polymer/polymer": "^3.4.1",
     "@webcomponents/webcomponentsjs": "^2.2.10",
     "lit-element": "^2.2.1",
     "zxcvbn": "^4.4.2"
