@@ -16,10 +16,8 @@ public class VaadinPasswordStrength extends Component {
         getElement().setProperty("score", score);
     }
 
-    public int calculate(String password) {
-        Zxcvbn zxcvbn = new Zxcvbn();
-        Strength strength = zxcvbn.measure(password);
-        return strength.getScore();
+    public Strength getStrength(String password) {
+        return new Zxcvbn().measure(password);
     }
 
 }
