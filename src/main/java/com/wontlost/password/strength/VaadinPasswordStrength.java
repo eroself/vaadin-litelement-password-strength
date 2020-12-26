@@ -22,7 +22,7 @@ public class VaadinPasswordStrength extends Component {
     public int calculate(String password) {
         Zxcvbn zxcvbn = new Zxcvbn();
         Strength strength = zxcvbn.measure(password);
-        return strength.getScore();
+        return strength.getScore()+1;
     }
 
 }
