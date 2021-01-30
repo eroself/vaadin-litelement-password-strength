@@ -5,7 +5,7 @@
 
     <groupId>com.wontlost</groupId>
     <artifactId>password-strength-vaadin</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>PasswordStrengthVaadin</name>
     <description>Password strength for Vaadin 14</description>
     <scm>
