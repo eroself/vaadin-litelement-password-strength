@@ -6,6 +6,7 @@ import com.nulabinc.zxcvbn.Zxcvbn;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.Tag;
 import com.vaadin.flow.component.dependency.JsModule;
+import com.vaadin.flow.component.dependency.NpmPackage;
 
 import java.util.List;
 import java.util.Locale;
@@ -13,6 +14,8 @@ import java.util.ResourceBundle;
 
 @Tag("vaadin-password-strength")
 @JsModule("./vaadin-password-strength.js")
+@NpmPackage(value = "zxcvbn", version = "^4.4.2")
+@NpmPackage(value = "@collaborne/polymer-password-strength", version = "^4.0.0")
 public class VaadinPasswordStrength extends Component {
 
     ResourceBundle resourceBundle;
